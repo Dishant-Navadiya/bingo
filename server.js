@@ -60,7 +60,7 @@ io.on("connection", (socket) => {
   socket.on("disconnect", () => {});
 });
 
-app.get("/user", (req, res) => {
+app.get("/users", (req, res) => {
   res.send(users);
 });
 

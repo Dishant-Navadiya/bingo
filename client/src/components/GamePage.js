@@ -6,7 +6,7 @@ import Button from "./Button";
 import "./gamepage.css";
 
 let socket;
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://thebingo.herokuapp.com";
 
 const GamePage = (props) => {
   const [whole, setWhole] = useState(numbers);
