@@ -1,0 +1,19 @@
+.btn {
+  cursor: pointer;
+  background-color: #f3f3fb;
+  font-size: 15px;
+  width: 55px;
+  height: 40px;
+  color: #242c44;
+  font-weight: 700;
+  position: relative;
+  transition: transform 150ms ease-in-out;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #242c44;
+}
+.btn:active {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+}
